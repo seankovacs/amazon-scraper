@@ -1,6 +1,6 @@
 {
-    "name": "amazon-buddy",
-    "version": "1.4.17",
+    "name": "amazon-scraper",
+    "version": "1.5.0",
     "description": "Amazon Scraper. You can scrape products from amazon search result and you can also scrape reviews from a specific product",
     "main": "./lib/index.js",
     "bin": {
@@ -24,10 +24,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/drawrowfly/amazon-scraper.git"
-    },
+    "repository": {},
     "keywords": [
         "amazon",
         "scraper"
