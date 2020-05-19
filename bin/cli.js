@@ -82,6 +82,7 @@ require('yargs')
             describe: 'The custom amazon host (can be www.amazon.fr, www.amazon.de, etc.)',
         },
         'random-ua': {
+            aliias: 'rua',
             default: false,
             type: 'boolean',
             describe: 'Randomize user agent version. This helps to prevent request blocking from the amazon side',
@@ -92,6 +93,12 @@ require('yargs')
             type: 'number',
             describe: 'Timeout between requests. Timeout is set in mls: 1000 mls = 1 second',
         },
+        proxy: {
+            alias: 'p',
+            default: '',
+            type: 'string',
+            describe: 'Proxy server',
+        }
     })
     .check((argv) => {
         if (['products', 'reviews', 'asin'].indexOf(argv['_'][0]) === -1) {
