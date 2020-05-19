@@ -1,6 +1,6 @@
 {
     "name": "amazon-scraper",
-    "version": "1.5.46",
+    "version": "1.5.5",
     "description": "Amazon Scraper. You can scrape products from amazon search result and you can also scrape reviews from a specific product",
     "main": "./lib/index.js",
     "bin": {
@@ -13,14 +13,23 @@
         "async": "^3.1.1",
         "bluebird": "^3.7.2",
         "cheerio": "^1.0.0-rc.3",
+        "chrome-aws-lambda": "^3.0.4",
         "json2csv": "^4.5.3",
         "ora": "^4.0.2",
+        "puppeteer-core": "^3.1.0",
+        "puppeteer-extra": "^3.1.9",
+        "puppeteer-extra-plugin-adblocker": "^2.11.3",
+        "puppeteer-extra-plugin-anonymize-ua": "^2.2.8",
+        "puppeteer-extra-plugin-block-resources": "^2.2.4",
+        "puppeteer-extra-plugin-stealth": "^2.4.9",
         "request": "^2.88.0",
         "request-promise": "^4.2.4",
         "tough-cookie": "^3.0.1",
         "yargs": "^14.2.0"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "puppeteer": "^3.1.0"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
