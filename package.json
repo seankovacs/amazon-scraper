@@ -1,6 +1,6 @@
 {
     "name": "amazon-scraper",
-    "version": "1.5.52",
+    "version": "1.5.53",
     "description": "Amazon Scraper. You can scrape products from amazon search result and you can also scrape reviews from a specific product",
     "main": "./lib/index.js",
     "bin": {
